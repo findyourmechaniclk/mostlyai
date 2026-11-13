@@ -1,6 +1,8 @@
 name: '[CPU] mostlyai Tests'
 
-on: [workflow_call]
+on:
+  workflow_dispatch:
+  "workflow_call":
 
 env:
   PYTHON_KEYRING_BACKEND: keyring.backends.null.Keyring
